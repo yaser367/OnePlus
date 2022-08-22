@@ -1,0 +1,113 @@
+body{
+    font-family: 'OnePlus Sans Regular','Helvetica Neue',Helvetica,Arial,sans-serif,system-ui;
+}
+.oneplus-logo{
+    width: 120px;
+    height: 50px;
+}
+p{
+    line-height:.5rem;
+}
+.product-image{
+    width: 100%;
+    transition: 0.5s;
+}
+.product-image:hover{
+    transform: scale(1.1);
+}    
+.image-text{
+
+    position:absolute;  
+    top:10%; 
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.image-ptext{
+    position:absolute;  
+    top:16%; 
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: .9;
+}
+.image-rupees-text{
+    position:absolute;  
+    top:24%; 
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: .9;
+}
+.text-decoration-underline{
+    position:absolute;  
+    top:32%; 
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.zoom-image{
+    overflow: hidden;
+}
+.card-image{
+    width: 10em;
+    height: 5em;
+}
+.card-image2{
+    width: 13em;
+    height: 2em;
+}
+.card-image3{
+    width: 3em;
+    height: 3em;
+    
+}
+.subscrib-btn{
+    position: absolute;
+    left: 47%;
+    margin-top: 14%;
+    
+}
+.nav-item{
+    position: relative;
+    
+}
+.nav-item::after {
+    position: absolute;
+    content: '';
+    background-color: crimson;
+    width: 0%;
+    height: 2px;
+    transition: all .5s;
+    right: 0;
+    left: 0;
+  }
+  .nav-item:hover::after{
+    width: 100%;
+  }
+ .bold-text{
+    font-weight: bold;
+ }
+ .footer2{
+    background: #f9f9f9;
+ }
+ .subscrib-btn1{
+    position: absolute;
+    left: 50%;
+    margin-top: 40%;
+    transform:translate(-50%,-50%);
+    
+}
+
+.text-button{
+    padding-top: 4em;
+}
+.form-control{
+    position:relative;
+    
+    
+}
+.form-control small{
+    position:absolute;
+    color: red;
+    top:70%;
+    left: 40%;
+    visibility: hidden;
+}
